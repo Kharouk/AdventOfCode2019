@@ -6,6 +6,7 @@ describe("Advent of Code Day One", () => {
     expect(fuelCalculator(14)).toEqual(2);
     expect(fuelCalculator(1969)).toEqual(654);
     expect(fuelCalculator(100756)).toEqual(33583);
+    expect(fuelCalculator(83326)).toEqual(27773);
   });
 
   it("is able to multiple fuel sources, find the mass, and add the numbers", () => {
