@@ -1,4 +1,4 @@
-const fuelCalculator = require("./index");
+const { fuelCalculator, totalFuelCalculator } = require("./index");
 
 describe("Advent of Code Day One", () => {
   it("is able to deduce fuel from the given mass", () => {
@@ -9,6 +9,6 @@ describe("Advent of Code Day One", () => {
   });
 
   it("is able to multiple fuel sources, find the mass, and add the numbers", () => {
-    expect(totalFuelCalculator([530, 1234, 666, 4])).toEqual(123452);
+    expect(totalFuelCalculator([530, 1234, 666, 4])).toEqual(802);
   });
 });
